@@ -1243,7 +1243,7 @@ body {
 }
 
 
-@media (min-width:576px) {
+@media (min-width:576px) and (max-width:991px) {
     .carousel-item .d-block {
         width: 210%!important;
         position: relative;
@@ -1308,4 +1308,162 @@ body {
         height: 380px;
         border-radius: 5px;
     }
+}
+
+
+@media (min-width:768px) and (max-width:991px) {
+    .carousel-item .d-block {
+        width: 100%!important;
+        position: relative;
+        right: 0px;
+    }
+
+    .Specialization-section .Specialization-container .row .inside-box {
+        width: 670px;
+        background: white;
+        padding: 0;
+        margin-top: 25px;
+    }
+
+    .Specialization-section .Specialization-container .row .inside-box .box .inner-content p {
+        font-size: 18px;
+        color: grey;
+        margin-bottom: 15px;
+        margin-top: 5px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .Specialization-section .Specialization-container .row .inside-box .box .inner-content {
+        height: 140px;
+        padding: 8px;
+    }
+
+    .Specialization-section .Specialization-container .row .inside-box .box .inner-content a {
+        text-decoration: none;
+        color: #102039;
+        font-family: 'Roboto Slab', serif;
+        transition: .3s ease-out;
+        font-size: 18px;
+    }
+
+    .About-section .about .row .about-box img {
+        max-width: 90%;
+        width: 160%;
+        object-fit: cover;
+    }
+
+    .About-section .about .row .about-box .img-box {
+        background: #EA1826;
+        position: absolute;
+        height: 190px;
+        width: 550px;
+        left: 51px;
+        top: 491px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .About-section .about .row .about-box .img-box i {
+        font-size: 55px;
+        color: white;
+        margin-left: 13px;
+    }
+
+    .About-section .about .row .about-box .img-box .details h5 {
+        font-size: 44px;
+        color: white;
+        font-family: 'Roboto Slab', serif;
+    }
+
+    .About-section .about .row .about-box .img-box .details p {
+        font-size: 21px;
+        color: white;
+        margin: 0;
+        font-family: 'Roboto Slab', serif;
+    }
+
+    .About-section .about .row .about-box h2 {
+        font-size: 40px;
+        margin-top: 30px;
+        font-family: 'Roboto Slab', serif;
+        height: 90px;
+    }
+
+    .About-section .about .row .about-box p {
+        margin-top: 20px;
+        font-size: 17px;
+        color: grey;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .About-section .about .row .about-box .director-box .box img {
+        width: 80px;
+        height: 70px;
+        border-radius: 35px;
+    }
+
+    .Service-section .background-img .section-1 .row .content p {
+        color: white;
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+        font-size: 17px;
+    }
+
+    .Service-section .background-img .section-2 .row .box {
+        width: 140px;
+        background: white;
+        height: 140px;
+        display: flex;
+        justify-content: center;
+        border-radius: 10px;
+        transition: .3s ease-out;
+        margin: 30px;
+    }
+
+    .section-3 .service-info {
+        background: white;
+        height: 1045px;
+        width: 615px;
+    }
+
+    .section-3 .service-info .row {
+        height: 490px;
+        margin: 0;
+        width: 615px;
+    }
+
+    .section-3 .service-info .row .service-block h2 {
+        font-family: 'Roboto Slab', serif;
+        margin-top: 20px;
+        margin-bottom: 25px;
+        font-size: 40px;
+    }
+
+    .section-3 .service-info .row .service-block p {
+        font-size: 17px;
+        color: grey;
+        font-family: 'Poppins', sans-serif;
+        margin-left: 0px;
+    }
+
+    .section-3 .service-info .row .service-block b {
+        color: #EA1826;
+        font-size: 26px;
+    }
+
+    .section-3 .service-info .row .service-block .inner-row .checkbox ul li {
+        font-size: 20px;
+        font-family: 'Roboto Slab', serif;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+
+    .section-3 .service-info .row .service-block .image-section img {
+        width: 440px;
+        height: 440px;
+        border-radius: 5px;
+    }
+
+   
 }
