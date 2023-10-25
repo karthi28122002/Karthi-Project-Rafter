@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="./assests/css/bootstrap.min.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family=Poppins&family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family=Poppins&family=Roboto&family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
-</head>
+    <link rel="stylesheet" href="./assests/aos-master/dist/aos.css">
+  </head>
 <body>
 
     <section class="header-nav">
@@ -146,7 +147,7 @@
         </section>
 
         <section class="Specialization-section">
-           <div class="Specialization-container">
+           <div class="Specialization-container" data-aos="fade-up">
                <div class="row">
 
                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 inside-box">
@@ -201,7 +202,7 @@
         <section class="About-section">
             <div class="about">
                 <div class="row">
-                    <div class="col-xl-6 about-box">
+                    <div class="col-xl-6 about-box" data-aos="zoom-in">
                       <img src="./assests/media/about-1.jpg" alt="">
                       <div class="img-box">
                             <i class="fa-solid fa-house-chimney"></i>
@@ -212,7 +213,7 @@
                       </div>
                     </div>
 
-                    <div class="col-xl-6 about-box">
+                    <div class="col-xl-6 about-box" data-aos="zoom-in">
                       <h2>Profesional Roof Repair Services Since 2000</h2>
                       <p>Quisque dignissim enim diam, eget pulvinar ex viverra id.
                            Nulla a lobortis lectus, id volutpat magna. Morbi consequat porttitor fermentum.
@@ -257,12 +258,12 @@
 
              <div class="section-1">
                  <div class="row">
-                     <div class="col-xl-6 content">
+                     <div class="col-xl-6 content" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                        <h2>
                             We'r Prodviding Quality Roofing Services
                        </h2>
                      </div>
-                     <div class="col-xl-6 content">
+                     <div class="col-xl-6 content" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                          <p>
                             Trage agile frameworks to provide a robust synopsis for high level overviews.
                             Iterative approachesTrage agile frameworks to provide a robust synopsis for high level overviews. 
@@ -274,42 +275,42 @@
 
              <div class="section-2">
                  <div class="row">
-                     <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 box">
+                     <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 box" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                       <a id="content_1" href="#">
                       <i class="fa-solid fa-person-shelter"></i>
                       <p>Roof Installation</p>
                       </a>
                      </div>
 
-                     <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 box">
+                     <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 box" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                       <a id="content_2" href="#">
                       <i class="fa-solid fa-house-crack"></i>
                       <p>Roof Cornering</p>
                       </a>
                      </div>
 
-                     <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 box">
+                     <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 box" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                       <a href="#">
                       <i class="fa-solid fa-table-cells-large"></i>
                       <p>Roof Frame Design</p>
                       </a>
                      </div>
 
-                     <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 box">
+                     <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 box" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                       <a href="#">
                       <i class="fa-solid fa-house"></i>
                       <p>Roof Layer Fixing</p>
                       </a>
                      </div>
 
-                     <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 box">
+                     <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 box" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                       <a href="#">
                       <i class="fa-solid fa-house-circle-exclamation"></i>
                       <p>Roof Damage Repair</p>
                       </a>
                      </div>
 
-                     <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 box">
+                     <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 box" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                       <a href="#">
                       <i class="fa-solid fa-hotel"></i>
                       <p>Roof Siding Corner</p>
@@ -318,10 +319,10 @@
                  </div>
              </div>
 
-             <div class="section-3">
+             <div class="section-3"  data-aos-anchor-placement="bottom-bottom">
               <div class="service-info">
 
-                <div class="row">
+                <div class="row"  data-aos="fade-up">
 
                   <div class="col-xl-6 service-block">
                      <h2>Roof Installation</h2>
@@ -371,5 +372,12 @@
     <script src="./assests/js/jquery.min.js"></script>
     <script src="./assests/js/bootstrap.bundle.js"></script>
     <script src="https://kit.fontawesome.com/d1d0d6db39.js" crossorigin="anonymous"></script>
+    <script src="./assests/aos-master/dist/aos.js"></script>
 </body>
 </html>
+
+<script>
+     AOS.init({
+  duration: 1200,
+})
+  </script>
